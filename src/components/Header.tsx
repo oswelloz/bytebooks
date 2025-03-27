@@ -11,6 +11,7 @@ const Header: React.FC = () => {
             <h2>ByteBooks</h2>
             <Search />
             <Categories />
+        
 
     </div>
     </div>
