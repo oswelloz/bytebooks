@@ -3,26 +3,31 @@ import "../styles/categories.css";
 
 const Categories: React.FC = () => {
   const categories = [
-    "All",
-    "Biography",
-    "Business",
-    "Fiction",
-    "History",
-    "Mystery",
-    "Nonfiction",
-    "Science",
-    "Self-Help",
-    "Technology",
+    "Data Science",
+  "Web Development",
+    "Machine Learning",
+"Artificial Intelligence",
+    "Cloud Computing",
+"Cybersecurity",
+    "Mobile Development",
+    "Game Development",
+"Blockchain",
+    "DevOps",
+"Software Engineering",
+    "Database Management",
+"Networking",
+    "UI/UX Design",
+    "Python",
+    "JavaScript",
   ];
-    return (
-        <div className="categories-section">
-        <div className="categories-container">
-            {categories.map((category,index) => (
-                <span key={index}>{category}</span>
-            ))}
-        </div>
-        </div>
-    );
+
+  return (
+    <div className="categories-section">
+      {categories.map((category, index) => (
+        <span key={index}>{category}</span>
+      ))}
+    </div>
+  );
 };
 
 export default Categories;

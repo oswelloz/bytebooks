@@ -7,7 +7,7 @@ const Search: React.FC = () => {
     <div className="search-section">
       <div className="search-container">
         <form>
-            <div>
+            <div className="form-container">
         <input
           type="text"
           placeholder="Search for books"
